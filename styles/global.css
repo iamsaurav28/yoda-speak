@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary:#34D399;
+       --black: #020202;
+    --width-break:600px
+}
+
+body {
+    margin: 0;
+    font-family: 'Kalam', cursive;
+    color: #B45309;
+}
+
+nav {
+    background-color: var(--primary);
+    text-align: center;
+     border-top-left-radius:5rem;
+    border-bottom-right-radius:5rem;
+    border-top-right-radius:5rem;
+    border-bottom-left-radius:5rem;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+}
+
+button {
+    background-color:#B45309;
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: larger;
+    color: #34D399;
+}
+
+
+#translate-output {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow:scroll;
+    border: 1px solid var(--black);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color:
+    var(--primary);
+    text-align: center;
+    border-top-left-radius: 8rem;
+    border-bottom-right-radius: 8rem;
+    border-top-right-radius: 8rem;
+    border-bottom-left-radius: 8rem;
+    
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
